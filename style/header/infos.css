@@ -1,0 +1,6 @@
+.infos {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: var(--space-header);
+}

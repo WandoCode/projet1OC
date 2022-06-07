@@ -1,0 +1,15 @@
+.filters-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.75%;
+  margin-bottom: var(--space-header);
+}
+
+.btns-container {
+  display: flex;
+}
+
+.btn-container {
+  position: relative;
+  margin-left: 2.5%;
+}

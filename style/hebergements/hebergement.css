@@ -1,0 +1,34 @@
+.hebergement-container {
+  display: flex;
+  gap: 3%;
+}
+
+.hebergements:nth-child(1) {
+  flex-basis: 68%;
+}
+
+.hebergements:nth-child(2) {
+  flex-basis: 32%;
+}
+
+.hebergements {
+  background-color: var(--neutral);
+  border-radius: 25px;
+  padding: 3.5% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 626px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7% 3.5%;
+}
+
+.cards-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
