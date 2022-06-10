@@ -1,34 +1,39 @@
 .hebergement-container {
   display: flex;
   gap: 3%;
+  height: 626px;
 }
 
 .hebergements:nth-child(1) {
-  flex-basis: 68%;
+  width: 68%;
 }
 
 .hebergements:nth-child(2) {
-  flex-basis: 32%;
+  width: 32%;
 }
 
 .hebergements {
   background-color: var(--neutral);
   border-radius: 25px;
-  padding: 3.5% 3%;
+  padding: 2.4% 2.75%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 626px;
+  justify-content: space-around;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 7% 3.5%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  height: 76.5%;
 }
 
 .cards-column {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: space-around;
+  height: 89%;
 }

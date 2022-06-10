@@ -1,3 +1,7 @@
+button:hover {
+  cursor: pointer;
+}
+
 .btn-primary {
   border: none;
   color: white;
@@ -22,5 +26,11 @@
 }
 
 .btn-invisible {
-  width: 20%;
+  width: max-content;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  margin-top: 2%;
 }
+
+/* TODO: Add animation on hover */

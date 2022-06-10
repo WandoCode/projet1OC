@@ -1,13 +1,9 @@
-html {
-  background-color: black;
-}
-
 body {
   background-color: white;
   margin: 0 auto;
-  max-width: 1440px;
   display: flex;
   flex-direction: column;
+  width: min(1440px, 100%);
 }
 
 header,
