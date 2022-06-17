@@ -13,14 +13,12 @@
   </head>
   <body>
     <header>
-      <div class="upper">
-        <div class="logo-container">
-          <img
-            src="./static/images/logo/Booki.png"
-            alt="Logo booki"
-            class="logo"
-          />
-        </div>
+      <div class="nav-container">
+        <img
+          src="./static/images/logo/Booki.png"
+          alt="Logo booki"
+          class="logo"
+        />
         <nav>
           <a href="#hebergements" class="active_link">Hébergements</a>
           <a href="#activites">Activités</a>
@@ -40,42 +38,48 @@
           id="search"
           value="Marseille, France"
         />
-        <button type="submit" class="btn-primary">Rechercher</button>
+        <button type="submit" class="button-lg">Rechercher</button>
+        <button type="submit" class="button-sm">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
       </form>
 
       <div class="filters-container">
         <h3>Filtres</h3>
         <div class="btns-container">
-          <div class="btn-container">
-            <div class="icon-wrapper">
+          <button class="btn-secondary">
+            <span class="icon-wrapper">
               <i class="fa-solid fa-money-bill-wave"></i>
-            </div>
-            <button class="btn-secondary">Économique</button>
-          </div>
-          <div class="btn-container">
-            <div class="icon-wrapper">
+            </span>
+            Économique
+          </button>
+
+          <button class="btn-secondary">
+            <span class="icon-wrapper">
               <i class="fa-solid fa-child-reaching"></i>
-            </div>
-            <button class="btn-secondary">Familial</button>
-          </div>
-          <div class="btn-container">
-            <div class="icon-wrapper">
+            </span>
+            Familial
+          </button>
+
+          <button class="btn-secondary">
+            <span class="icon-wrapper">
               <i class="fa-solid fa-heart"></i>
-            </div>
-            <button class="btn-secondary">Romantique</button>
-          </div>
-          <div class="btn-container">
-            <div class="icon-wrapper">
+            </span>
+            Romantique
+          </button>
+
+          <button class="btn-secondary">
+            <span class="icon-wrapper">
               <i class="fa-solid fa-dog"></i>
-            </div>
-            <button class="btn-secondary">Animaux autorisés</button>
-          </div>
+            </span>
+            Animaux autorisés
+          </button>
         </div>
       </div>
       <div class="infos">
-        <div class="icon-wrapper icon-wrapper--infos">
+        <span class="icon-wrapper icon-wrapper--infos">
           <i class="fa-solid fa-info"></i>
-        </div>
+        </span>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </header>
@@ -90,10 +94,8 @@
                 alt="Chambre de l'auberge La Cannebiere"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Auberge La Cannebière</h4>
-                  <p>Nuit à partir de <strong>25€</strong></p>
-                </div>
+                <h4>Auberge La Cannebière</h4>
+                <p>Nuit à partir de <strong>25€</strong></p>
                 <div class="rating rating-four">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -109,10 +111,8 @@
                 alt="Chambre de l'hôtel du port"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Hôtel du port</h4>
-                  <p>Nuit à partir de <strong>52€</strong></p>
-                </div>
+                <h4>Hôtel du port</h4>
+                <p>Nuit à partir de <strong>52€</strong></p>
                 <div class="rating rating-five">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -128,10 +128,8 @@
                 alt="Chambre de l'hôtel les mouettes"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Hôtel Les mouettes</h4>
-                  <p>Nuit à partir de <strong>76€</strong></p>
-                </div>
+                <h4>Hôtel Les mouettes</h4>
+                <p>Nuit à partir de <strong>76€</strong></p>
                 <div class="rating rating-four">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -147,10 +145,8 @@
                 alt="Chambre de l'hôtel de la mer"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Hôtel de la mer</h4>
-                  <p>Nuit à partir de <strong>46€</strong></p>
-                </div>
+                <h4>Hôtel de la mer</h4>
+                <p>Nuit à partir de <strong>46€</strong></p>
                 <div class="rating rating-three">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -166,10 +162,8 @@
                 alt="Chambre de l'auberge Le Panier"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Auberge Le Panier</h4>
-                  <p>Nuit à partir de <strong>23€</strong></p>
-                </div>
+                <h4>Auberge Le Panier</h4>
+                <p>Nuit à partir de <strong>23€</strong></p>
                 <div class="rating rating-four">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -185,10 +179,8 @@
                 alt="Chambre de l'hôtel chez Amina"
               />
               <div class="card-text">
-                <div class="upper">
-                  <h4>Hôtel chez Amina</h4>
-                  <p>Nuit à partir de <strong>96€</strong></p>
-                </div>
+                <h4>Hôtel chez Amina</h4>
+                <p>Nuit à partir de <strong>96€</strong></p>
                 <div class="rating rating-five">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -268,45 +260,46 @@
         </section>
       </div>
 
-      <section id="activites">
+      <section id="activites" class="activites">
         <h3 class="section">Activités à Marseille</h3>
-        <div>
-          <a href="#" class="card">
+        <div class="cards cards-column-wrap">
+          <a href="#" class="card card-simple card-large">
             <img
               src="./static/images/activites/4_small/vieux_port.jpg"
               alt="Le Vieux Port"
             />
             <h4>Vieux Port</h4>
           </a>
-          <a href="#">
+          <a href="#" class="card card-simple">
             <img
               src="./static/images/activites/4_small/fort_de_pomègues.jpg"
               alt="Le fort de Pomègues"
             />
             <h4>Fort de Pomègues</h4>
           </a>
-          <a href="#">
+          <a href="#" class="card card-simple card-small">
             <img
               src="./static/images/activites/4_small/iles_du_frioul.jpg"
               alt="Îles du Frioul"
             />
             <h4>Îles du Frioul</h4>
           </a>
-          <a href="#">
+          <a href="#" class="card card-simple card-large">
             <img
               src="./static/images/activites/4_small/parc_national_des_calanques.jpg"
               alt="Parc National des Calanques"
+              class="filtered"
             />
             <h4>Parc National des Calanques</h4>
           </a>
-          <a href="#">
+          <a href="#" class="card card-simple">
             <img
               src="./static/images/activites/4_small/notre_dame_de_la_garde.jpg"
               alt="Notre-Dame-de-la-Garde"
             />
             <h4>Notre-Dame-de-la-Garde</h4>
           </a>
-          <a href="#">
+          <a href="#" class="card card-simple">
             <img
               src="./static/images/activites/4_small/parc_longchamp.jpg"
               alt="Parc Longchamp"
@@ -317,27 +310,29 @@
       </section>
     </main>
     <footer>
-      <div>
-        <h4>A propos</h4>
-        <ul>
-          <li>Fonctionnement du site</li>
-          <li>Conditions générales de vente</li>
-          <li>Données et confidentialité</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Nos hébergements</h4>
-        <ul>
-          <li>Charte qualité</li>
-          <li>Soumettre votre hôtel</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Assistance</h4>
-        <ul>
-          <li>Centre d'aide</li>
-          <li>Nous contacter</li>
-        </ul>
+      <div class="footer-wrapper">
+        <div class="footer-menu">
+          <h4>A propos</h4>
+          <ul>
+            <li><a href="#">Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h4>Nos hébergements</h4>
+          <ul>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h4>Assistance</h4>
+          <ul>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

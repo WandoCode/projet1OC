@@ -1,0 +1,17 @@
+.infos {
+  position: relative;
+  margin: 40px var(--main-margin);
+  padding-left: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper--infos {
+  bottom: 0;
+  left: 0;
+  height: 23px;
+  width: 23px;
+  border: 1px solid var(--light-dark);
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 12px;
+}
