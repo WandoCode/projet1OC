@@ -34,7 +34,7 @@
   width: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .location_search {
     max-width: 333px;
     width: 95%;

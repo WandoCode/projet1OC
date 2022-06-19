@@ -40,7 +40,7 @@ h4.overlap {
   bottom: 0;
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
   .cards-column-wrap {
     row-gap: 24px;
     height: 640px;
@@ -57,7 +57,7 @@ h4.overlap {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .activites {
     margin-bottom: 50px;
   }

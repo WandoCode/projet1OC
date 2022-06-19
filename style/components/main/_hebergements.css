@@ -40,7 +40,7 @@
   gap: 33px;
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
   .hebergement-container {
     flex-direction: column;
     margin: 0;
@@ -58,7 +58,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 9px) {
   .hebergements {
     padding: 10.6% var(--main-margin) 9.8% var(--main-margin);
   }

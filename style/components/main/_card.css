@@ -69,7 +69,7 @@ h4.card-heading {
   margin-bottom: 5.4%;
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
   .card-row .card-text {
     margin: 2.5% 5.55%;
   }
@@ -87,7 +87,7 @@ h4.card-heading {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .card {
     width: 100%;
   }
