@@ -1,3 +1,7 @@
+@import "./_title.css";
+@import "./_search-form.css";
+@import "./_filters.css";
+@import "./_infos.css";
 @import "./_hebergements.css";
 @import "./_card.css";
 @import "./_activites.css";

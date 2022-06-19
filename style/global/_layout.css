@@ -16,6 +16,7 @@ main {
 
 footer {
   width: 100%;
+  overflow: hidden;
 }
 
 .footer-wrapper {
@@ -35,4 +36,3 @@ footer {
     padding: 0 8%;
   }
 }
-/*TODO: passer les padding dans les sections directement car c'est la que je vais devoir mettre les medias query les concernant...*/

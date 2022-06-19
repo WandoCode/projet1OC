@@ -24,9 +24,6 @@
   justify-content: space-evenly;
   margin-left: 11px;
 }
-.card h4 {
-  font-size: 16px;
-}
 
 .card p {
   font-size: 14px;
@@ -42,11 +39,11 @@
   color: var(--primary);
 }
 
-.card .rating-four i:not(:nth-child(5)) {
+.card .rating-four i:nth-child(-n + 4) {
   color: var(--primary);
 }
 
-.card .rating-three i:not(:nth-child(5)):not(:nth-child(4)) {
+.card .rating-three i:nth-child(-n + 3) {
   color: var(--primary);
 }
 
@@ -63,23 +60,16 @@
 }
 
 .card-row .card-text {
-  width: 30%; /*TODO: solution farfelue(?) a mon probleme de padding/margin */
-  margin: 3.9% 5.55%; /* Pq si je mets une valeur en left/right, la taille d'une des images est modifiée (alors qu'elle a un valeur fixe)*/
+  width: 30%;
+  margin: 3.9% 5.55%;
   justify-content: space-between;
 }
 
-.card-row h4 {
+h4.card-heading {
   margin-bottom: 5.4%;
 }
 
-.filtered {
-  /*filter: ; TODO: l'aspect de l'image est différent...*/
-}
-
 @media (max-width: 993px) {
-  .card h4 {
-    font-size: 18px;
-  }
   .card-row .card-text {
     margin: 2.5% 5.55%;
   }

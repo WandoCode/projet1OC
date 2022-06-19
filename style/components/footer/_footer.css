@@ -5,20 +5,15 @@ footer {
 
 .footer-wrapper {
   display: flex;
-  gap: 0 17.11%;
+  gap: 0 16.03%;
   margin-top: 50px;
 }
 
 .footer-menu {
-  min-width: max-content;
+  min-width: 240px;
   display: flex;
   flex-direction: column;
   gap: 18px 0;
-}
-
-.footer-menu h4 {
-  font-weight: 700;
-  font-size: 18px;
 }
 
 .footer-menu ul {

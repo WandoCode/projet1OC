@@ -4,13 +4,10 @@
   margin: 0 var(--main-margin);
 }
 
-section h3 {
-  display: flex;
-  justify-content: space-between;
-  font-size: 22px;
-  font-weight: 700;
+.hebergements h3 {
   margin-bottom: 23px;
 }
+
 .hebergements {
   background-color: var(--background);
   display: flex;
@@ -33,16 +30,9 @@ section h3 {
   width: 100%;
 }
 
-.hebergements button {
+.hebergements .button-invisible {
   align-self: flex-start;
-  font-size: 18px;
-  font-weight: 700;
   margin-top: 5.35%;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.hebergements button:hover {
-  background-color: rgba(255, 255, 255, 0);
 }
 
 .cards-column {
@@ -70,12 +60,13 @@ section h3 {
 
 @media (max-width: 768px) {
   .hebergements {
-    padding: 10.6% var(--main-margin) 9.8% var(--main-margin); /*padding: 10.6% var(--main-margin) 9.8% var(--main-margin)*/
+    padding: 10.6% var(--main-margin) 9.8% var(--main-margin);
   }
 
-  .hebergements button {
+  .hebergements .button-invisible {
     margin-top: 9.05%;
   }
+
   .cards,
   .cards-column {
     flex-direction: column;
