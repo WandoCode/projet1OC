@@ -1,9 +1,0 @@
-:root {
-  --main-margin: 3.47%;
-}
-
-@media (max-width: 768px) {
-  :root {
-    --main-margin: 5.33%;
-  }
-}

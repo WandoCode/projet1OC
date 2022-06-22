@@ -1,0 +1,59 @@
+button {
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button.button-primary {
+  background-color: var(--primary);
+  color: white;
+  font-size: 17px;
+}
+
+button.button-sm {
+  border-radius: 17px;
+}
+
+button.button-lg {
+  font-weight: 600;
+}
+
+button.button-secondary {
+  padding-left: calc(50px + 8px);
+  padding-right: 20px;
+  border: 2px solid var(--light-dark);
+  background-color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: 0.1s transform;
+}
+
+button.button-secondary:hover {
+  transform: scale(1.02);
+}
+
+.button-secondary:hover .icon-wrapper {
+  background-color: var(--primary);
+  color: var(--secondary);
+  transform: scale(1.05);
+}
+
+button.button-invisible {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button.button-invisible:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 767px) {
+  button.button-secondary {
+    font-size: 16px;
+  }
+}

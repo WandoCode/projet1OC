@@ -1,0 +1,14 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px 0;
+  height: 95px;
+  margin: 0 var(--main-margin);
+}
+
+@media (max-width: 767px) {
+  .title {
+    height: 150px;
+  }
+}

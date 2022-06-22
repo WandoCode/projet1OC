@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 3.47%;
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-wrapper {
+    padding: 0 8%;
+  }
+}

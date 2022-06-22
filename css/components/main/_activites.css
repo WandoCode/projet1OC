@@ -1,0 +1,80 @@
+.activites {
+  display: flex;
+  flex-direction: column;
+  margin: 4.48% var(--main-margin);
+}
+.activites h3 {
+  margin-bottom: 23px;
+}
+
+.cards-column-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 445px;
+  flex-wrap: wrap;
+  gap: 10.11% 3.29%;
+  align-content: flex-start;
+}
+
+.card-simple {
+  padding: 0;
+  width: 22.5%;
+}
+
+.card-large {
+  height: 100%;
+}
+
+.card-small {
+  max-height: 165px;
+}
+
+.card-simple img {
+  flex-grow: 1;
+  border-radius: 15px 15px 20px 20px;
+  overflow: hidden;
+}
+
+.overlap {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .cards-column-wrap {
+    row-gap: 24px;
+    height: 640px;
+  }
+  .card-simple {
+    width: 48.5%;
+    max-height: 190px;
+  }
+  .card-large {
+    max-height: 190px;
+  }
+  .card-small {
+    max-height: 190px;
+  }
+}
+
+@media (max-width: 767px) {
+  .activites {
+    margin-bottom: 50px;
+  }
+  .cards-column-wrap {
+    height: auto;
+  }
+  .card-simple {
+    width: 100%;
+    height: auto;
+  }
+  .card-large {
+    height: auto;
+  }
+  .card-small {
+    height: auto;
+  }
+  .card-simple img {
+    height: 190px;
+  }
+}
