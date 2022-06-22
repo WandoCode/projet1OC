@@ -26,12 +26,12 @@
   position: absolute;
   top: -2px;
   left: -2px;
-  background-color: var(--secondary);
   height: 50px;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--secondary);
   border-radius: 50px;
   font-size: 18px;
   color: var(--primary);

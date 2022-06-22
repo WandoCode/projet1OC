@@ -58,7 +58,7 @@
   }
 }
 
-@media (max-width: 9px) {
+@media (max-width: 767px) {
   .hebergements {
     padding: 10.6% var(--main-margin) 9.8% var(--main-margin);
   }

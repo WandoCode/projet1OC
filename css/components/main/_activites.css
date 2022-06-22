@@ -35,7 +35,7 @@
   overflow: hidden;
 }
 
-h4.overlap {
+.overlap {
   position: absolute;
   bottom: 0;
 }
