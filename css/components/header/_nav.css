@@ -27,7 +27,7 @@ nav a {
   font-weight: 500;
 }
 
-.active_link {
+nav a:hover {
   border-top: 2px var(--primary) solid;
   border-bottom: 2px rgba(255, 255, 255, 0) solid;
   color: var(--primary);
@@ -54,7 +54,8 @@ nav a {
     border-top: 2px rgba(255, 255, 255, 0) solid;
     padding-bottom: 13px;
   }
-  .active_link {
+
+  nav a:hover {
     border-bottom: 2px var(--primary) solid;
     border-top: 2px rgba(255, 255, 255, 0) solid;
   }
